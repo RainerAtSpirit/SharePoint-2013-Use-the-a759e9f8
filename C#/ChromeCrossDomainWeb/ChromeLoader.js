@@ -43,6 +43,11 @@
                                 options
                           );
         nav.setVisible(true);
+
+        $('#chromeControl_stylesheet').on('load', function (event) {
+            $('body').show();
+        })
+
     }
 
     // Function to retrieve a query string value.
