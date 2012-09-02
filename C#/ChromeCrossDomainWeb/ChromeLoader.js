@@ -1,5 +1,5 @@
 ﻿//load the SharePoint resources
-$(document).ready(function () {
+(function () {
     var hostweburl;
     //Get the URI decoded URL.
     hostweburl =
@@ -58,4 +58,4 @@ $(document).ready(function () {
                 return singleParam[1];
         }
     }
-});
+})();

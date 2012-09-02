@@ -1,5 +1,5 @@
 ﻿// Load the required SharePoint libraries
-$(document).ready(function () {
+(function () {
     var hostweburl;
     var appweburl;
 
@@ -88,4 +88,4 @@ $(document).ready(function () {
                 return singleParam[1];
         }
     }
-});
+})();

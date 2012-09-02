@@ -3,18 +3,6 @@
 <head>
     <title>Chrome control host page</title>
     <link rel="stylesheet" type="text/css" href="app.css" />
-    <script 
-        type="text/javascript" 
-        src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js">
-    </script>
-    <script 
-        type="text/javascript" 
-        src="ChromeLoader.js">
-    </script>
-        <script 
-        type="text/javascript" 
-        src="CrossDomainExec.js">
-    </script>
 </head>
 <body>
 
@@ -24,5 +12,10 @@
 
     <!-- This is the placeholder for the announcements -->
     <div id="renderAnnouncements"></div>
+    
+    <!-- Script tags moved to bottom -->
+    <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="ChromeLoader.js"></script>
+    <script type="text/javascript" src="CrossDomainExec.js"></script>
 </body>
 </html>
