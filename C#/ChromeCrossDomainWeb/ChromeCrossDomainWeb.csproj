@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account.html" />
+    <Content Include="app.css" />
     <Content Include="ChromeCrossDomain.html" />
     <Content Include="ChromeLoader.js" />
     <Content Include="Contact.html" />
