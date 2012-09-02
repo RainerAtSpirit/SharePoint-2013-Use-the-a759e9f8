@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="1f4ad1c3-6605-43a3-9fbc-7b1ea5fa4ca9" Scope="Web" Title="ChromeCrossDomainApp Feature1">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Home.aspx" />
+    <ElementManifest Location="Announcements\Elements.xml" />
+  </ElementManifests>
+</Feature>
